@@ -1,0 +1,31 @@
+{
+  "name": "apinode",
+  "version": "1.0.0",
+  "description": "Example project of API Node",
+  "main": "index.js",
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "commander": "^2.15.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.8",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.0",
+    "uuid": "^3.3.2",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "NODE_PATH=. NODE_ENV=production node index.js",
+    "prod": "NODE_PATH=. NODE_ENV=production node index.js",
+    "dev": "NODE_PATH=. NODE_ENV=development node index.js",
+    "dev2": "NODE_PATH=. NODE_ENV=development nodemon",
+    "test": "NODE_PATH=. NODE_ENV=test node_modules/mocha/bin/mocha --recursive",
+    "coverage": "NODE_PATH=. NODE_ENV=test istanbul cover node_modules/mocha/bin/mocha --recursive",
+    "lint": "./node_modules/.bin/eslint {src,config}/**/*.js"
+  },
+  "author": "Fábio Barros",
+  "license": "ISC"
+}
