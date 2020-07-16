@@ -7,6 +7,7 @@ VQV!
 - acesso a um banco MySQL
 - criar um database de nome region_weslene e aplicar o modelo presente na pasta "db".
 - abrir o arquivo config/enviroments/development.js e informar os dados de conexão com o banco (host, user, pws, etc...)
+- instalar o NPM e o NODE. Acesse https://docs.npmjs.com/try-the-latest-stable-version-of-npm e https://www.hostinger.com.br/tutoriais/o-que-e-npm
 - dentro da pasta do projeto, executar 'npm install'
 - para executar o projeto, digitar "node index.js"
 
@@ -21,9 +22,11 @@ Connection has been established successfully.
 
 
 O que você vai precisar estudar (não é difícil!)
-- javascript
-- ORM Sequelize (esse é a mesma coisa que o seu Hibernate no C#)
-- Koa.js (Ninguém desenvolve nada "na unha", então, é necessário utilizar um framework de mercado. Esse é um deles. Ele foi criado pela equipe que criou o framework Express, que é um dos mais usados no mercado. Ele é bem tranquilo de entender e implementar).
+- Node (javascript)
+- ORM Sequelize (esse é a mesma coisa que o seu Hibernate no C#). Acesse https://sequelize.org/master/
+- Koa.js (Ninguém desenvolve nada "na unha", então, é necessário utilizar um framework de mercado. Esse é um deles. Ele foi criado pela equipe que criou o framework Express, que é um dos mais usados no mercado. Ele é bem tranquilo de entender e implementar). Acesse https://koajs.com/
+
+
 
 Agora basta abrir o código, ver as rotas e brincar com a API!
 
