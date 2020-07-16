@@ -20,6 +20,11 @@ Executing (default): SELECT 1+1 AS result
 Connection has been established successfully.
 
 
+O que você vai precisar estudar (não é difícil!)
+- javascript
+- ORM Sequelize (esse é a mesma coisa que o seu Hibernate no C#)
+- Koa.js (Ninguém desenvolve nada "na unha", então, é necessário utilizar um framework de mercado. Esse é um deles. Ele foi criado pela equipe que criou o framework Express, que é um dos mais usados no mercado. Ele é bem tranquilo de entender e implementar).
+
 Agora basta abrir o código, ver as rotas e brincar com a API!
 
 Bons estudos!
